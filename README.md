@@ -1,9 +1,9 @@
-Market Basket Analysis (Retail Analytics)
+**Market Basket Analysis (Retail Analytics)**
 
 This project analyzes retail transaction data to find which products are often bought together and to understand customer purchasing behavior.
 It uses the Apriori algorithm for association rule mining and RFM analysis for customer segmentation.
 
-1. Project Summary
+**1. Project Summary**
 
 The goal of this project is to:
 
@@ -17,7 +17,7 @@ Help retailers understand buying patterns and customer value
 
 This project is built with Python and uses libraries like Pandas, mlxtend, Matplotlib, and Seaborn.
 
-2. Dataset
+**2. Dataset**
 
 File: dataset/orders.csv
 
@@ -33,7 +33,7 @@ itemDescription → Product purchased
 
 Each row represents one product bought by one customer.
 
-3. What the Project Does
+**3. What the Project Does**
 Step 1: Data Cleaning
 
 Renames columns to standard names
@@ -90,7 +90,7 @@ frequency_dist.png
 
 These help understand shopping frequency and recency patterns.
 
-4. Outputs Folder
+**4. Outputs Folder**
 
 All results are stored in:
 
@@ -107,7 +107,7 @@ RFM Segments
 
 Recency & Frequency Charts
 
-5. How to Run the Project
+**5. How to Run the Project**
 
 Open the project folder
 
