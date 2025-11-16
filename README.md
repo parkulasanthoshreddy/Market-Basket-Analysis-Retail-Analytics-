@@ -9,7 +9,7 @@ The goal of this project is to:
 
 Identify frequently bought-together items
 
-Generate association rules (e.g., If a customer buys X, they might also buy Y)
+Generate association rules (e.g., If a customer buys X, they might also buy Y) 
 
 Segment customers using RFM (Recency, Frequency, Monetary)
 
