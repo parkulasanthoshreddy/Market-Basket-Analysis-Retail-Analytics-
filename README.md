@@ -35,7 +35,7 @@ Each row represents one product bought by one customer.
 
 **3. What the Project Does**
 
-Step 1: Data Cleaning
+**Step 1**: Data Cleaning
 
 Renames columns to standard names
 
@@ -47,11 +47,11 @@ Creates a unique InvoiceNo for each purchase day
 
 Adds Quantity = 1 because dataset doesn’t include quantity
 
-Step 2: Market Basket Matrix
+**Step 2**: Market Basket Matrix
 
 Creates a table showing which items appear in each transaction (True/False values).
 
-Step 3: Apriori Algorithm
+**Step 3**: Apriori Algorithm
 
 Finds:
 
@@ -67,7 +67,7 @@ frequent_itemsets.csv
 
 association_rules.csv
 
-Step 4: RFM Segmentation
+**Step 4**: RFM Segmentation
 
 Calculates:
 
@@ -81,7 +81,7 @@ Saved to:
 
 rfm_segments.csv
 
-Step 5: Visualizations
+**Step 5**: Visualizations
 
 Project generates:
 
@@ -108,24 +108,4 @@ RFM Segments
 
 Recency & Frequency Charts
 
-**5. How to Run the Project**
 
-Open the project folder
-
-Create and activate a virtual environment:
-
-python -m venv .venv
-.\.venv\Scripts\activate
-
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Run the project:
-
-python mba_starter.py
-
-
-All results will appear inside the outputs/ folder.
