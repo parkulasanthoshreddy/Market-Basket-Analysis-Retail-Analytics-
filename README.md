@@ -34,6 +34,7 @@ itemDescription → Product purchased
 Each row represents one product bought by one customer.
 
 **3. What the Project Does**
+
 Step 1: Data Cleaning
 
 Renames columns to standard names
